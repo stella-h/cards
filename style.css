@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Merriweather&display=swap');
+
+body {
+  background-color: #f4f4f4;
+}
+
+.card-group {
+  display: flex;
+  justify-content: space-evenly;
+  /* flex-flow: row; */
+}
+
+.card-title {
+  font-family: 'Lora';
+  text-transform: capitalize;
+}
+
+.card-text {
+  font-family: 'Lora';
+  font-size: 11px;
+  padding-top: 12px;
+}
+
+.card-author {
+  text-transform: capitalize;
+}
+
+.card {
+  width: 20%;
+  min-height: 300px;
+  margin: 1.5rem;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  color: #4083d7;
+  background-color: #fff;
+  box-shadow: 3px 5px 9px -7px #777;
+}
+
+.hidden {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+
+
